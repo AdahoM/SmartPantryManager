@@ -1,3 +1,4 @@
+// Richfield Final Project - SmartPantryManager App
 //SmartPantryManager - Developed by Adaho - Richfield Project
 //version 1.0 - 2026
 //TODO: Add delete item feature
