@@ -23,6 +23,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("CREATE TABLE recipes (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, ingredients TEXT, steps TEXT)");
 
         // Seed 20 recipes - THIS GIVES YOU MARKS
+       //These recipes are used for strict-matching with pantry items
         db.execSQL("INSERT INTO recipes (title,ingredients,steps) VALUES " +
                 "('Fried Rice','Rice, Eggs, Oil','1. Fry rice. 2. Add eggs. 3. Mix with oil')," +
                 "('Tomato Omelette','Eggs, Tomato, Oil','1. Beat eggs. 2. Add tomato. 3. Fry')," +
