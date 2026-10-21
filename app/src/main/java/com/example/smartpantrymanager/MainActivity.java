@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
-
+// Main screen that shows pantry items
 public class MainActivity extends AppCompatActivity implements PantryAdapter.OnItemActionListener {
 
     private RecyclerView rvPantry;
