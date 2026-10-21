@@ -16,6 +16,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     //Checks if pantry item is expired before showing recipe
+    // Pantry table strores all food items
     public void onCreate(SQLiteDatabase db){
         db.execSQL("CREATE TABLE pantry (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, quantity TEXT, unit TEXT, expiry INTEGER)");
         db.execSQL("CREATE TABLE recipes (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, ingredients TEXT, steps TEXT)");
@@ -106,4 +107,5 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
         c.close(); return list;
     }
+
 }
