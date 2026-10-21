@@ -2,6 +2,7 @@
 //version 1.0 - 2026
 //TODO: Add delete item feature
 // Author: AdahoM -Richfield Graduate Institute
+// Last update: Oct 22 2026 - Before submission
 package com.example.smartpantrymanager;
 
 import android.content.Intent;
