@@ -1,4 +1,5 @@
 //SmartPantryManager - Developed by Adaho - Richfield Project
+//version 1.0 - 2026
 package com.example.smartpantrymanager;
 
 import android.content.Intent;
